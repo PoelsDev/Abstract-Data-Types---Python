@@ -1,0 +1,18 @@
+graph G {
+
+10 -- 5
+"node10-right" [label="", style=invis]
+10 -- "node10-right" [style=invis]
+
+
+"node5-left" [label="", style=invis]
+5 -- "node5-left" [style=invis]
+5 -- 9
+
+
+"node9-left" [label="", style=invis]
+9 -- "node9-left" [style=invis]
+"node9-right" [label="", style=invis]
+9 -- "node9-right" [style=invis]
+
+}

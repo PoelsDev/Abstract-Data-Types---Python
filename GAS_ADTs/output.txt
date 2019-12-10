@@ -1,0 +1,45 @@
+graph G {
+
+node5 [label=5, style=invis]
+node1 [label=1, style=invis]
+
+5 -- 3
+5 -- 7
+
+node69 [label=69, style=invis]
+node56 [label=56, style=invis]
+
+3 -- 0
+3 -- 4
+
+node62 [label=62, style=invis]
+node92 [label=92, style=invis]
+
+0 -- node62 [style=invis]
+0 -- 1
+
+node73 [label=73, style=invis]
+node50 [label=50, style=invis]
+
+1 -- node73 [style=invis]
+1 -- node73 [style=invis]
+
+node31 [label=31, style=invis]
+node78 [label=78, style=invis]
+
+4 -- node31 [style=invis]
+4 -- node31 [style=invis]
+
+node84 [label=84, style=invis]
+node33 [label=33, style=invis]
+
+7 -- node84 [style=invis]
+7 -- 10
+
+node67 [label=67, style=invis]
+node33 [label=33, style=invis]
+
+10 -- node67 [style=invis]
+10 -- node67 [style=invis]
+
+}
